@@ -1,6 +1,5 @@
 CS4641 - HW3 - Unsupervised Learning
 By: Derrick Williams
-Date: 2016-04-03
 
 Data package:
 ABAGAIL, scipy, numpy, and WEKA gui were used to implement this project.  ABAGAIL was used to reconstruct PCA and RP for analysis purposes and for selecting which projections to keep for final dimensionality reduction.  Scipy and numpy were used to find the kurtosis and mean of a projection for ICA.  WEKA was used for more of the heavy lifting in running cross validation for parameter selection for running in neural networks, running clustering algorithms k-Means and EM, all of the dimensionality reduction algorithms, and resampling or adjusting datasets.  The Experimenter module was used to run the CV experiments.
